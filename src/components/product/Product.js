@@ -12,7 +12,7 @@ const Product = (props) => {
 <h4>{name}</h4>
 <h5>Category: <small>{category}</small></h5>
 <p>Seller: {seller} </p>
-<h2>Price: {wholePrice}</h2>
+<h2>Price: ${wholePrice}</h2>
 <p>total {stock} are left in stock</p>
 <button onClick={props.handleClick}>Add To Cart</button>
 
