@@ -1,0 +1,20 @@
+.product-container{
+    display: flex;
+}
+img{
+    margin-left: 100px;
+}
+.product-details{
+    text-align:left;
+    margin-left: 100px;
+}
+h4{
+    color: blue;
+}
+button{
+    background-color: sandybrown;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
