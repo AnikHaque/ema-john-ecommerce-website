@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Cart = () => {
+const Cart = (props) => {
     return (
         <div>
             <div className="cart">
                 <h2>Order summary</h2>
-                <p>Items Ordered:</p>
+                <p>Items Ordered: {props.cart.length} </p>
                 <small>Items:</small>
                 <br></br>
                 <small>Shipping & Handling:</small>

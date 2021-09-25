@@ -14,7 +14,7 @@ const Product = (props) => {
 <p>Seller: {seller} </p>
 <h2>Price: {wholePrice}</h2>
 <p>total {stock} are left in stock</p>
-<button>Add To Cart</button>
+<button onClick={props.handleClick}>Add To Cart</button>
 
             </div>
             
