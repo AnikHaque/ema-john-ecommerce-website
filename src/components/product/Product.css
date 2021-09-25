@@ -1,5 +1,6 @@
 .product-container{
     display: flex;
+    border-right: 1px dotted gray;
 }
 img{
     margin-left: 100px;
@@ -7,6 +8,7 @@ img{
 .product-details{
     text-align:left;
     margin-left: 100px;
+    
 }
 h4{
     color: blue;
@@ -17,4 +19,6 @@ button{
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 150px;
+    margin-bottom: 50px;
 }

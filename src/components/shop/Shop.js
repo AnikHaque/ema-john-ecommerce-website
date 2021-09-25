@@ -12,9 +12,6 @@ fetch('./products.JSON')
     return (
         <div className="shop-container">
             <div>
-            <h1>
-Products:{products.length}
-            </h1>
             {
             products.map(product => <Product product = {product}
             key={product.key}
@@ -23,8 +20,18 @@ Products:{products.length}
             </div>
             
             
-            <div>
-                <h1>Order summary</h1>
+            <div className="cart">
+                <h2>Order summary</h2>
+                <p>Items Ordered:</p>
+                <small>Items:</small>
+                <br></br>
+                <small>Shipping & Handling:</small>
+                <br></br>
+                <small>Total before tax:</small>
+                <br></br>
+                <small>Estimated tax:</small>
+                <br></br>
+                <h3>Order Total:</h3>
             </div>
         </div>
     );
